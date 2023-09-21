@@ -86,6 +86,7 @@ class Trajectory:
         x_ = np.array([x_ref_, y_ref_, dx_ref_, dy_ref_]).T
         x_ = np.concatenate((np.array([[quad.pos[0], quad.pos[1], quad.dpos[0], quad.dpos[1]]]), x_), axis=0)
         u_ = np.array([phi_ref_, the_ref_]).T
+        print("x: ",quad.pos[0],"y: ",quad.pos[1], "z: ", quad.pos[2])
         
         # print(x_)
         # print(u_)
