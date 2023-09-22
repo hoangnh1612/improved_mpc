@@ -9,3 +9,5 @@ Its formula described in this figure. Standard MPC contains only $J_x$ and $J_u$
 
 ![Alt text](image/formula.png?raw=true "Model")
 
+TODO in this week: Create an environment for RL application.
+
